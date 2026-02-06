@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 바이브 코딩 페이지</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pretendard:wght@400;700&display=swap');
+        body { font-family: 'Pretendard', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 flex items-center justify-center min-h-screen">
+
+    <div class="max-w-md w-full p-8 bg-white rounded-3xl shadow-xl border border-slate-100 text-center">
+        <div class="w-24 h-24 bg-gradient-to-tr from-purple-500 to-pink-500 rounded-full mx-auto mb-6 flex items-center justify-center shadow-lg">
+            <span class="text-4xl">🚀</span>
+        </div>
+
+        <h1 class="text-3xl font-bold mb-2 tracking-tight">Hello, Vibe!</h1>
+        <p class="text-slate-500 mb-8">AI와 대화하며 완성한 저의 첫 번째 웹페이지입니다. 코딩은 이제 감성(Vibe)이죠.</p>
+
+        <div class="space-y-3">
+            <a href="https://github.com" class="block w-full py-3 px-4 bg-slate-900 text-white rounded-xl font-semibold hover:bg-slate-800 transition-all">
+                GitHub 방문하기
+            </a>
+            <button onclick="celebrate()" class="block w-full py-3 px-4 bg-white border border-slate-200 rounded-xl font-semibold hover:bg-slate-50 transition-all">
+                축하하기 ✨
+            </button>
+        </div>
+
+        <p class="mt-8 text-xs text-slate-400">© 2026 Vibe Coder. Powered by Gemini.</p>
+    </div>
+
+    <script>
+        function celebrate() {
+            alert('축하해주셔서 감사합니다! 🎉 바이브 코딩으로 세상을 바꿔봐요!');
+        }
+    </script>
+</body>
+</html>
